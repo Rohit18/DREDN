@@ -34,11 +34,26 @@ High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling
 
 **From Left: Input TIR band 256x256, by ATRPK, by DREDN, Target**
 
-[MODIS Blue (B3)](https://www.notion.so/1560f61919e54b62b5b0c221e6ff6869)
 
-[MODIS SWIR1 (B6)](https://www.notion.so/1d43aae43c004ffa80d267e28ae4b0bc)
+|     Blue     |     ERGAS      |     MSSIM     |     PSNR     |     SAM       |     RMSE    |
+|--------------|----------------|---------------|--------------|---------------|-------------|
+|     ATPRK    |     1065.05    |     0.9375    |     30.06    |     0.1120    |     8.14    |
+|     UNET     |     879.55     |     0.9778    |     34.32    |     0.0677    |     5.07    |
+|     SRCNN    |     876.48     |     0.9739    |     33.73    |     0.0714    |     5.40    |
 
-[MODIS TIR1 (B31)](https://www.notion.so/efe77d3db3984a4eab0b2fb9f6b0a698)
+
+|     SWIR2    |     ERGAS     |     MSSIM     |     PSNR     |     SAM       |     RMSE     |
+|--------------|---------------|---------------|--------------|---------------|--------------|
+|     ATPRK    |     852.05    |     0.8609    |     23.84    |     0.0993    |     16.58    |
+|     UNET     |     609.21    |     0.9518    |     28.33    |     0.0598    |     9.80     |
+|     SRCNN    |     626.03    |     0.9468    |     28.05    |     0.0615    |     10.33    |
+
+
+|     TIR1     |     ERGAS     |     MSSIM     |     PSNR     |     SAM       |     RMSE     |
+|--------------|---------------|---------------|--------------|---------------|--------------|
+|     ATPRK    |     327.96    |     0.8298    |     27.68    |     0.0557    |     11.24    |
+|     UNET     |     208.69    |     0.9214    |     30.84    |     0.0362    |     7.45     |
+|     SRCNN    |     220.73    |     0.9334    |     30.71    |     0.0369    |     7.64     |
 
 Validations performed using python sewar library - [https://pypi.org/project/sewar/](https://pypi.org/project/sewar/)
 
