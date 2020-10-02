@@ -14,11 +14,15 @@
 
 We propose a solution (deep residual encoder-decoder network or **DREDN**) that does not require additional information (unlike ATPRK). DREDN is adapted from the Fastai U-Net model [7]. 
 
+<br>
+
 **Model Diagram:**
 
 ![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/UNETDiagram_(3).png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/DREDN-modeldiagram.png)
 
 High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling MODIS spectral bands
+
+<br>
 
 **Results:**  We carried out our experiments on MODIS Blue, Green, two shortwave infrared bands (SWIR1 and SWIR2), and two thermal infrared bands (TIR1 and TIR2). Below are the results for Blue, SWIR1, and TIR1.
 
@@ -28,12 +32,15 @@ High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling
 
 **From Left: Input SWIR band 256x256, by ATRPK, by DREDN, Target**
 
+<br>
+
 ### **TIR1**
 
 ![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/TIR1.png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/TIR1.png)
 
 **From Left: Input TIR band 256x256, by ATRPK, by DREDN, Target**
 
+<br>
 
 |     Blue     |     ERGAS      |     MSSIM     |     PSNR     |     SAM       |     RMSE    |
 |--------------|----------------|---------------|--------------|---------------|-------------|
@@ -49,6 +56,7 @@ High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling
 |     SRCNN    |     626.03    |     0.9468    |     28.05    |     0.0615    |     10.33    |
 
 
+
 |     TIR1     |     ERGAS     |     MSSIM     |     PSNR     |     SAM       |     RMSE     |
 |--------------|---------------|---------------|--------------|---------------|--------------|
 |     ATPRK    |     327.96    |     0.8298    |     27.68    |     0.0557    |     11.24    |
@@ -56,8 +64,11 @@ High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling
 |     SRCNN    |     220.73    |     0.9334    |     30.71    |     0.0369    |     7.64     |
 
 
+<br>
 
 Validations performed using python sewar library - [https://pypi.org/project/sewar/](https://pypi.org/project/sewar/)
+
+<br>
 
 ---
 
