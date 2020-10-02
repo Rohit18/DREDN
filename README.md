@@ -22,13 +22,13 @@ High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling
 
 **Results:**  We carried out our experiments on MODIS Blue, Green, two shortwave infrared bands (SWIR1 and SWIR2), and two thermal infrared bands (TIR1 and TIR2). Below are the results for Blue, SWIR1, and TIR1.
 
-###**SWIR1**
+### **SWIR1**
 
 ![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/SWIR1.png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/SWIR1.png)
 
 **From Left: Input SWIR band 256x256, by ATRPK, by DREDN, Target**
 
-###**TIR1**
+### **TIR1**
 
 ![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/TIR1.png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/TIR1.png)
 
