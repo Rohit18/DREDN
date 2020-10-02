@@ -58,4 +58,8 @@ References:
 
 [6] Wald, Lucien. "Quality of high resolution synthesised images: Is there a simple criterion?." 2000.
 
+<<<<<<< Updated upstream
 [7] Fastai: U-net model. [https://docs.fast.ai/vision.models.unet.html](https://docs.fast.ai/vision.models.unet.html)
+=======
+[7] Fastai: U-net model. [https://docs.fast.ai/vision.models.unet.html](https://docs.fast.ai/vision.models.unet.html)
+>>>>>>> Stashed changes
