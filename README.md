@@ -16,7 +16,7 @@ We propose a solution (deep residual encoder-decoder network or **DREDN**) that 
 
 **Model Diagram:**
 
-![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/UNETDiagram_(3).png](MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/UNETDiagram_(3).png)
+![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/UNETDiagram_(3).png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/DREDN-modeldiagram.png)
 
 High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling MODIS spectral bands
 
@@ -24,13 +24,13 @@ High level view of Deep Residual Encoder Decoder Network (DREDN) for Downscaling
 
 **SWIR1**
 
-![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/SWIR1.png](MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/SWIR1.png)
+![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/SWIR1.png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/SWIR1.png)
 
 **From Left: Input SWIR band 256x256, by ATRPK, by DREDN, Target**
 
 **TIR1**
 
-![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/TIR1.png](MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/TIR1.png)
+![MODIS-Downscaling%20a450b882fddf4b2da98541e02396e3d4/TIR1.png](https://github.com/Rohit18/MODIS-Downscaling/blob/main/Images/TIR1.png)
 
 **From Left: Input TIR band 256x256, by ATRPK, by DREDN, Target**
 
